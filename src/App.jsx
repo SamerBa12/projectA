@@ -1,12 +1,15 @@
-import './App.css'
+import Hero from "./components/Hero";
+import Highlight from "./components/Highlight";
+import Navbar from "./components/Navbar";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      samer issa 
-    </>
-  )
-}
+    <main>
+      <Navbar />
+      <Hero />
+      <Highlight /> 
+    </main>
+  );
+};
 
-export default App
+export default App;
